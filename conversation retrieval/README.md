@@ -5,7 +5,7 @@
 1_retrieve_conversation_ids.py: This file retrieves conversation id per tweet id. Needs an excel file with tweet_ids as a column as input, and config file with Twitter API tokens.
 
 ```jsx
-python 1_[retrieve_conversation_ids.py](https://github.com/hadarishav/beyond-digital-echo-chambers/blob/main/conversation%20retrieval/1.%20retrieve%20conversation%20ids.py) --file_name "input.xlsx"
+python 1_retrieve_conversation_ids.py --file_name "input.xlsx"
 ```
 
 2_retrieve_conversations.py: This file takes conversation_ids retrieved from previous step as input and retrieve conversations using Twitter API.
