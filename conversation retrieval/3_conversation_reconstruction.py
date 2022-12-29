@@ -7,14 +7,10 @@ import pickle as pk
 import os
 
 
-# This path points to the dataset
-data_path = ""
-
-
 # loading and aggregating the conversations
+file = "data_list.npy"
 raw_conversations = []
-for file in os.listdir(data_path):
-    raw_conversations += (np.load(data_path+"/"+file,allow_pickle=True).tolist())
+raw_conversations = (np.load(file,allow_pickle=True).tolist())
 
 
 #Elimiating the NA entries
