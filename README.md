@@ -11,7 +11,7 @@ If you use our work, please cite us:
 ```
 @article{hada2022beyond,
   title={Beyond Digital" Echo Chambers": The Role of Viewpoint Diversity in Political Discussion},
-  author={Hada, Rishav and Fard, Amir Ebrahimi and Shugars, Sarah and Bianchi, Federico and Rossini, Patricia and Hovy, Dirk and Tromble, Rebekah and Tintarev, Nava},
+  author={Hada, Rishav and Ebrahimi Fard, Amir and Shugars, Sarah and Bianchi, Federico and Rossini, Patricia and Hovy, Dirk and Tromble, Rebekah and Tintarev, Nava},
   journal={arXiv preprint arXiv:2212.09056},
   year={2022}
 }
