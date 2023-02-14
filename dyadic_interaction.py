@@ -50,7 +50,6 @@ def make_dyadic_inference(hyper_network, aggregated_labels_dict):
         for condition2 in probs:
             conditional_probs_dyad_hyper_network[condition2+"|"+condition1] = sum([1 for i in nodes_neighbour_label[condition1] if i == condition2]) / nodes_dict[condition1]
 
-
     df_conditional_probs_dyad_hyper_network_heatmap = pd.DataFrame(columns=["L3", "L4"], index=["L3", "L4"], dtype="float")
 
     for likelihood in conditional_probs_dyad_hyper_network:
@@ -69,7 +68,6 @@ def plot_dyadic_interaction(conditional_prob_df, subject, path):
     ax.invert_yaxis()
     plt.xlabel("Given a node with this viewpoint")
     plt.ylabel("The likelihood of a reply with this viewpoint")
-    #Subject is either Immigration or DST
     ax.set_title(topic)
 
     plt.savefig(f"{path}dyadic_interactions.pdf", bbox_inches='tight')
