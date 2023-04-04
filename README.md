@@ -2,18 +2,30 @@
 
 Code, sample data, and other supplementary material for the paper "Beyond Digital “Echo Chambers”: The Role of Viewpoint Diversity in Political Discussion" accepted at WSDM'23
 
-The paper can be found here: [Beyond Digital “Echo Chambers”: The Role of Viewpoint Diversity in Political Discussion](https://arxiv.org/abs/2212.09056)
+The paper can be found here:
+- ACM DL: [Beyond Digital “Echo Chambers”: The Role of Viewpoint Diversity in Political Discussion](https://dl.acm.org/doi/10.1145/3539597.3570487)
+- arXiv: [Beyond Digital “Echo Chambers”: The Role of Viewpoint Diversity in Political Discussion](https://arxiv.org/abs/2212.09056)
 
-Our online talk for WSDM 2023 will be posted soon.
+Our online talk for WSDM 2023 can be found in the [ACM DL](https://dl.acm.org/doi/10.1145/3539597.3570487) page.
 
 If you use our work, please cite us:
 
 ```
-@article{hada2022beyond,
-  title={Beyond Digital" Echo Chambers": The Role of Viewpoint Diversity in Political Discussion},
-  author={Hada, Rishav and Ebrahimi Fard, Amir and Shugars, Sarah and Bianchi, Federico and Rossini, Patricia and Hovy, Dirk and Tromble, Rebekah and Tintarev, Nava},
-  journal={arXiv preprint arXiv:2212.09056},
-  year={2022}
+@inproceedings{10.1145/3539597.3570487,
+author = {Hada, Rishav and Ebrahimi Fard, Amir and Shugars, Sarah and Bianchi, Federico and Rossini, Patricia and Hovy, Dirk and Tromble, Rebekah and Tintarev, Nava},
+title = {Beyond Digital "Echo Chambers": The Role of Viewpoint Diversity in Political Discussion},
+year = {2023},
+isbn = {9781450394079},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3539597.3570487},
+doi = {10.1145/3539597.3570487},
+booktitle = {Proceedings of the Sixteenth ACM International Conference on Web Search and Data Mining},
+pages = {33–41},
+numpages = {9},
+keywords = {conversation network, Twitter, viewpoint diversity, echo chambers},
+location = {Singapore, Singapore},
+series = {WSDM '23}
 }
 ```
 
